@@ -1,0 +1,109 @@
+body{
+	background-color: black;
+}
+
+h1{
+	font-size: 50px;
+	text-align: center;
+	letter-spacing: 3px;
+	color: #F4FA58;
+}
+
+p{
+	color: #FAFAFA;
+}
+.logo{
+	text-shadow: 0 0 5px #F7FE2E,
+	             0 0 20px #F7FE2E,
+	             0 0 40px #F7FE2E,
+	             0 0 60px #F7FE2E;
+}
+
+
+.circle1{
+	background-image: url(4.png);
+    color: white;
+    height: 100px;
+    width: 100px;
+    border: 4px solid white;
+    border-radius: 50%;
+    position: absolute;
+    top: 90%;
+    right: 5%;
+}
+.circle2{
+	background-image: url(6.png);
+    color: white;
+    height: 100px;
+    width: 100px;
+    border: 4px solid white;
+    border-radius: 50%;
+    position: absolute;
+    top: 90%;
+    right: 17%;
+}
+
+.circle1:hover{
+    color: #ffff33;
+    box-shadow: 0px 0px 10px 1px #ffff33;
+    border-color: #ffff33;
+}
+
+.circle2:hover{
+    color: #ffff33;
+    box-shadow: 0px 0px 10px 1px #ffff33;
+    border-color: #ffff33;
+}
+
+.finget{
+	position: absolute;
+	top: 90%;
+	left: 5%;
+	height: 80px;
+	width: 80px;
+	background-color: #f2f2f2;
+	border-radius: 50%;
+	animation: spin 30s infinite;
+}
+@keyframes spin{
+	50%{
+		transform: rotate(50000deg);
+	}
+}
+.circle-1,.circle-2,.circle-3{
+	position: relative;
+	background-color: transparent;
+	border: 10px solid #f2f2f2;
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+}
+.circle-1{
+	bottom: 55px;
+	left: 5px;
+}
+.circle-2{
+	bottom: 40px;
+	left: 60px;
+}
+.circle-3{
+	right: 50px;
+	bottom: 110px;
+}
+.inner-1,.inner-2,.inner-3{
+	position: relative;
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	left: 10px;
+	top: 10px;
+}
+.inner-1{
+	background-color: #4778ff;
+}
+.inner-2{
+	background-color: #ffd147;
+}
+.inner-3{
+	background-color: #ff6347;
+}
